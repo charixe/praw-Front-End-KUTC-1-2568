@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ฟอร์ม</title>
+</head>
+<body>
+
+    <fieldset>
+
+    <form action="/index.html">
+
+    <h1>Basic Form</h1>
+
+    <label for="realname"> Realname </label>
+    <input type="text" name="realname" id="realname"value="ชลิสา" readonly >
+
+    <label for="Surname"> Surname </label>
+    <input type="text" name="Surname" id="Surname" disabled >
+
+    <br>
+    
+    <p>Gender</p>
+
+    <input type="radio" name="gender" id="male">
+    <label for="male">Male</label>
+
+    <input type="radio" name="gender" id="female">
+    <label for="female">Feale</label>
+
+    <br>
+    
+    <p>Department</p>
+    <select name="" id="Department">
+
+       <option value="Computer"> Computer </option>
+       <option value="IT"> IT </option>
+       <option value="Marketing"> Marketing </option>
+
+    </select>
+
+    <br>
+
+    <p>Device</p>
+
+    <input type="checkbox" name="device" id="phone">
+    <label for="phone"> phone </label>
+
+    <input type="checkbox" name="device" id="tablet">
+    <label for="tablet"> Tablet </label>
+
+    <input type="checkbox" name="device" id="laptop">
+    <label for="laptop"> Laptop </label>
+
+    <br>
+
+    <p>About</p>
+    <textarea name="about" id="about"placeholder="plase input your informatino"></textarea>
+
+    <br>
+
+    <p>Brithday</p>
+    <input type="date" name="bd" id="bd">
+
+    <br>
+    <p>Choose your profile</p>
+    <input type="file" name="file" id="file" multiple >
+
+    <br>
+    <p>Choose your color</p>
+    <input type="color" name="color" id="color">
+
+    <br>
+    <p>Choose your salary</p>
+    <input type="range" name="range" id="range">
+
+    <br>
+    <p>Your phone number</p>
+    <input type="number" name="number" id="number" max="5" min="0" >
+
+    <br>
+    <p>Input your password</p>
+    <input type="password" name="password" id="password" maxlength="10" >
+
+    <br>
+    <button> OK </button>
+    <input type="submit" value="Accept">
+
+
+    
+    </form>
+    </fieldset>
+</body>
+</html>
