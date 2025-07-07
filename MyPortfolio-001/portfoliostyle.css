@@ -16,6 +16,9 @@ header {
 h1 {
     color: #090808;
 }
+h2{
+    background-color: ;
+}
 
 table {
     margin: 0 auto;
@@ -25,6 +28,7 @@ table {
 th, td {
     padding: 10px;
     border: 1px solid #000000;
+    
 }
 
 form {
@@ -44,7 +48,7 @@ input, select, textarea {
 
 button {
     padding: 10px 20px;
-    background-color: #2e8b57;
+    background-color: #000000;
     color: white;
     border: none;
     border-radius: 10px;
@@ -56,7 +60,9 @@ img{
  height: auto;
 }
 body{
-    background-color: bisque;
+    background-color: rgb(206, 251, 162);
 }
 
-
+th{
+    background-color: aqua;
+}
