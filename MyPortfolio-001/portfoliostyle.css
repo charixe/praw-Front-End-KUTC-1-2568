@@ -1,0 +1,62 @@
+body {
+    background-color: #f3f6f9;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    color: #0b0a0a;
+    c
+}
+
+header {
+    background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhnHoSLLaHGylM3SfaAF_YDTkpFpb9THzle3FQeWuXBoqTb8A9-LBDIuRycRR99xvGBxB3_wterOIjmVM2s5H6SpLHV7Zsso1TcPoaKo2tRHcfRXWovCnOWEUI-OEl2e6QfQkyOpd2kXjZA/s1600/picture-of-facebook-cover-3.jpg);
+    width: 100%;
+    background-size: cover;
+
+}
+
+h1 {
+    color: #090808;
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #000000;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 20px;
+    
+
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #2e8b57;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+img{
+ border-radius: 60%;
+ width: 300px;
+ height: auto;
+}
+body{
+    background-color: bisque;
+}
+
+
