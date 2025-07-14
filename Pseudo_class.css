@@ -1,0 +1,15 @@
+.heading:hover{
+  color: brown;
+  font-size: 60px;
+}
+.heading:active{
+  background-color: black;
+}
+#input:focus{
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+.list li:nth-child(odd){
+    background-color: red;
+    color: rgb(255, 255, 255);
+}

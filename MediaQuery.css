@@ -1,0 +1,18 @@
+body{
+    text-align: center;
+}
+h1{
+    display: none;
+}
+@media(max-width:500px){
+    body{
+        background-color: red;
+    }
+    #smartphone h1{
+        display: block;
+        color: aliceblue;
+    }
+    h2{
+        display: none;
+    }
+}
