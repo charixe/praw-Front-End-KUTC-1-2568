@@ -2,17 +2,53 @@ body{
     text-align: center;
 }
 h1{
-    display: none;
+    display: block;
 }
-@media(max-width:500px){
+@media (max-width:699px) {
     body{
-        background-color: red;
+        background-color: rgb(159, 189, 240);
     }
-    #smartphone h1{
+    #smartphone{
         display: block;
-        color: aliceblue;
+        color: rgb(219, 204, 108);
     }
-    h2{
+      #tablets,#laptop,#tv{
+        display: none;
+    }
+}
+@media (min-width:700px) {
+    body{
+        background-color: rgba(232, 34, 34, 0.871);
+    }
+    #tablets  {
+        display: block;
+        color: rgb(222, 140, 40);
+    }
+        #smartphone,#laptop,#tv{
+        display: none;
+    }
+}
+@media (min-width:1000px) {
+    body{
+        background-color: rgb(169, 221, 66);
+    }
+    #laptop{
+    display: block;
+    color: rgb(211, 143, 143);
+    }
+        #smartphone,#tablets ,#tv{
+        display: none;
+    }
+}
+@media (min-width:1200px) {
+    body{
+        background-color: rgb(142, 67, 203);
+    }
+    #tv{
+        display: block;
+        color: rgb(10, 10, 13);
+    }
+         #smartphone,#tablets ,#laptop{
         display: none;
     }
 }
