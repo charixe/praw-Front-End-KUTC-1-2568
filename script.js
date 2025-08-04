@@ -124,9 +124,61 @@
 //     document.write(i);
 // }
 
-for (i = 1 ; i < 14 ; i = i + 1){
-    document.write(" อยากกลับบ้าน ");
-    document.write(i);
+// for (i = 1 ; i < 14 ; i = i + 1){
+//     document.write(" อยากกลับบ้าน ");
+//     document.write(i);
+// }
+
+//ฟังชันแบบไม่มีการรับค่า
+// function showmessage () {
+//     alert("ยินดีต้อนรับ");
+
+// }
+
+// showmessage (); //การเรียกใช้งานฟังชัน
+
+//ฟังชันแบบมีการรับค่า
+// function cal (number){
+//     return document.write(number * 2);
+// }
+
+// cal (40);//เรียกใช้งานแบบฟังชัน
+
+// function showname(realname, surname){
+//    return document.write (realname + " " + surname );
+// }
+
+// showname("ชลิสา", "สมอาจ"); //การเรียกใช้งานฟังชัน
+
+//ฟังชันแบบมีการรับค่าและส่งค่ากลับ
+
+
+
+function changecolor(){
+   let name = document.getElementById("Test-1");
+   name.style.color =  "red";
+     name.style.backgroundColor = "yellow";
 }
 
+function test(){
+    let result = document.querySelector(".Test-2");
+    result.setAttribute("class", "light");
+}
 
+let mode = document.querySelector (".mode");
+
+function drakmode(){  
+   mode.setAttribute("class", "drak");
+}
+
+function lightmode(){   
+  mode.setAttribute("class", "light");
+    
+}
+
+function changetext(){
+    let text = document.getElementById("change-text").value;
+    let result = document.getElementById("showtext");
+
+    result.innerHTML = text;
+}
